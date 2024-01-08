@@ -41,4 +41,11 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 size_t binary_tree_height(const binary_tree_t *tree);
 
+
+/* adv tasks */
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+void print_level_order(const binary_tree_t *tree, int level, void (*func)(int));
+size_t  binary_tree_height_aux(const binary_tree_t *tree);
+
 #endif
